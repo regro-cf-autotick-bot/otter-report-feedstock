@@ -1,5 +1,5 @@
 {% set name = "otter-report" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/otter-report-{{ version }}.tar.gz
-  sha256: f9f9ef879277f3d49ac9c6d2d603c07a473deaee732de46c74bc6769e369544b
+  sha256: c040df0d2aadae7ac2260ce0b2543fdbcb8ad0febbb7de1b193406867bb48ba2
 
 build:
   number: 0
